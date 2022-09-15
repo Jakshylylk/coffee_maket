@@ -2,8 +2,146 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* body {
+  background-color: #e2ece9;
+} */
+.body {
+  background-image: url(https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2021/02/wd-coffee-slide-3.jpg);
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  background: white;
+  /* justify-content: space-between; */
+
+  align-items: center;
   width: 100%;
-  height: 100vh;
+  margin: 0 auto;
+}
+.menu img.logo-menu-img {
+  width: 100px;
+  height: 50px;
+}
+.menu .menu__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 15px;
+  float: left;
+}
+.menu .menu__list li {
+  margin: 15px;
+  cursor: pointer;
+}
+.shope {
+  margin: 15px 15px 15px 100px;
+}
+.shope button,
+.menu .menu__list li button {
+  border: none;
+  background: white;
+}
+.text-box {
+  width: 40%;
+  margin: 90px 0 0 200px;
+}
+.text-box h1 {
+  color: #114639;
+  font-size: 44px;
+  line-height: 74px;
+}
+.text-box p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #858585;
+  margin-top: 20px;
+}
+.btns-contine button {
+  padding: 12px 20px;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 20px;
+}
+.btn-read {
+  background-color: #114639;
+  border: none;
+  border: 2px solid #114639;
+  cursor: pointer;
+  color: white;
+}
+.btn-read:hover {
+  border: 2px solid #858585;
+  background-color: transparent !important;
+  cursor: pointer;
+  color: black;
+}
+.btn-view {
+  border: 2px solid #858585;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-view:hover {
+  background-color: #114639;
+  border: none;
+  border: 2px solid #114639;
+  cursor: pointer;
+  color: white;
+}
+.first-content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f3f3f3;
+}
+.content-sort-coffee {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content-sort-coffee h2 {
+  padding-top: 5%;
+  color: #114639;
+}
+.content-sort-coffee p {
+  color: #c4c4c4;
+  padding: 15px;
+}
+.content-sort-coffee .links {
+  display: flex;
+  margin-top: 30px;
+  list-style: none;
+  justify-content: center;
+}
+.content-sort-coffee .links li a {
+  padding: 15px;
+  text-decoration: none;
+  color: #626262;
+}
+.content-sort-coffee .links li a:hover {
+  padding: 15px;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #114639;
+}
+.img-sort-coffee {
+  display: flex;
+  justify-content: center;
+}
+.img-sort-coffee img {
+  width: 250px;
 }
